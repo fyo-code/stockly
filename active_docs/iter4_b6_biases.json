@@ -1,0 +1,30 @@
+{
+  "anomaly_adjusted": {
+    "bias_capped": 0.2696,
+    "bias_raw": 0.2696
+  },
+  "calendar_events": {
+    "bias_capped": 0.3,
+    "bias_raw": 0.5658
+  },
+  "category_relative": {
+    "bias_capped": -0.2128,
+    "bias_raw": -0.2128
+  },
+  "crostons": {
+    "bias_capped": -0.3,
+    "bias_raw": -0.4315
+  },
+  "ets": {
+    "bias_capped": 0.3,
+    "bias_raw": 0.5597
+  },
+  "multi_scale_lag": {
+    "bias_capped": 0.3,
+    "bias_raw": 1.155
+  },
+  "naive_seasonal": {
+    "bias_capped": 0.3,
+    "bias_raw": 0.5484
+  }
+}

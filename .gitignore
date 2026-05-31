@@ -1,0 +1,48 @@
+# macOS / editor noise
+.DS_Store
+
+# Secrets and local machine config
+.env
+backend/.env
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/venv/
+
+# Node / frontend build outputs
+node_modules/
+.next/
+frontend/node_modules/
+frontend/.next/
+stockly_site_demo/node_modules/
+stockly_site_demo/.next/
+
+# Local databases and generated model/cache artifacts
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+backend/data/forecast_v2_feature_cache/
+backend/data/predictions/
+
+# Raw/private exports and large local data packages
+9 stores full info ( pipera not full)/
+new_stock_data_20may/
+stock_related_data/
+matrice_measures/
+data_samples/
+forecast_data/*.csv
+forecast_data/20_SKUs_Nov_Dec_2024*
+sales_*.csv
+active_docs/*.csv
+
+# Generated reports/caches that can be recreated
+*.log

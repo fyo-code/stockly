@@ -1,0 +1,41 @@
+{
+  "parallelExecution": {
+    "enabled": true,
+    "maxConcurrentWorkers": 4,
+    "workerModel": "haiku-4.5-20251001",
+    "synthesizerModel": "opus-4.6",
+    "taskTimeoutMs": 1800000,
+    "pollIntervalMs": 5000,
+    "maxPolls": 360,
+    "runInBackground": true,
+    "failureMode": "continue-with-available-results"
+  },
+  "workerTypes": {
+    "security-analyst": {
+      "model": "haiku-4.5-20251001",
+      "role": "Security analysis specialist",
+      "timeout": 900000
+    },
+    "performance-analyst": {
+      "model": "haiku-4.5-20251001",
+      "role": "Performance optimization specialist",
+      "timeout": 900000
+    },
+    "quality-analyst": {
+      "model": "haiku-4.5-20251001",
+      "role": "Code quality and architecture specialist",
+      "timeout": 900000
+    },
+    "generic-analyst": {
+      "model": "haiku-4.5-20251001",
+      "role": "General analysis specialist",
+      "timeout": 1200000
+    }
+  },
+  "resultValidation": {
+    "enabled": true,
+    "requireFields": ["status", "findings", "recommendations"],
+    "maxResultSize": 50000,
+    "validateMarkdown": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "anomaly_adjusted": 0.1314551772540542,
+  "calendar_events": 0.1314551772540542,
+  "category_relative": 0.1314551772540542,
+  "crostons": 0.1648256492646228,
+  "ets": 0.1487802670777305,
+  "multi_scale_lag": 0.1314551772540542,
+  "naive_seasonal": 0.1605733746414299
+}
